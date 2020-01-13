@@ -1,0 +1,81 @@
+body{
+    background: url(background1.jpg) top right no-repeat;  
+    /* background-position:fixed; */ 
+    width:100%; 
+    height:100%;
+    background-attachment: scroll;;
+    position: relative;
+    overflow: auto;
+}
+.image{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-align: center;
+    
+}
+.txt1{
+    font-weight: bolder;
+    text-align: center;
+    font: 5 3vh/1.1 'Berkshire Swash', Helvetica, sans-serif;
+    color: rgb(31, 1, 1); 
+    text-shadow: 4px 4px 1px grey, 4px 4px 0px rgba(0,0,0,0.15);
+}
+h1{
+    text-decoration: underline;
+}
+.opis{
+    position: relative;
+    text-align: center;
+    margin: 35px 0 20px;
+    height: 100%
+    
+}
+.margina{
+    
+    border-right: solid rgb(31, 1, 1);
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.customLink, .customLink:hover{
+    text-decoration: none;
+}
+.btn-button{
+   
+}
+.txt2{
+    font-weight: bolder;
+    text-align: left;
+    font: 5 3vh/1.1 'Berkshire Swash', Helvetica, sans-serif;
+    color: rgb(31, 1, 1); 
+    text-shadow: 4px 4px 1px grey, 4px 4px 0px rgba(0,0,0,0.15);
+    margin: 20px 0px 20px;
+}
+#foot{
+    clear: both;
+    border-top: 1px solid black;
+    font-size: 12px;
+    background-color: gray;
+    padding-bottom: 10px;
+    margin-top: 48px; 
+    position:relative;
+    width: 100%;
+    height: 100%;
+}
+.proba{
+    text-align: left;
+    font-weight: bolder;
+    font: 5 3vh/1.1 'Berkshire Swash', Helvetica, sans-serif;
+    color: rgb(31, 1, 1); 
+    text-shadow: 4px 4px 1px grey, 4px 4px 0px rgba(0,0,0,0.15);
+    margin: 20px 0 20px;
+    float: right;
+    background-color: inherit;
+}

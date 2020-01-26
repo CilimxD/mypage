@@ -55,23 +55,41 @@ $(document).ready(function () {
     var link = window.location.href;
     var positions = link.lastIndexOf("=") + 1;
     var x = parseInt(link.substring(positions));
-    txt(x);
+        if (x == 0) {
+            var y = 0;
+            $("#button").attr("value", y);
+            $("#aboutme").attr("href", "index.html?x=" + y);
+            $("#contact").attr("href", "contact.html?x=" + y);
+            $("#projects").attr("href", "projects.html?x=" + y);
+            txt(y);
+
+        }
+        if (x == 1 || x == null) {
+            var y = 1;
+            $("#button").attr("value", y);
+            $("#aboutme").attr("href", "index.html?x=" + y);
+            $("#contact").attr("href", "contact.html?x=" + y);
+            $("#projects").attr("href", "projects.html?x=" + y);
+            txt(y);
+        }
 
     $("#button").click(function () {
         var x = parseInt($("#button").val());
         if (x == 0) {
             var y = 1;
             $("#button").attr("value", y);
-            $("#aboutme").attr("href", "homepage.html?x=" + y);
+            $("#aboutme").attr("href", "index.html?x=" + y);
             $("#contact").attr("href", "contact.html?x=" + y);
+            $("#projects").attr("href", "projects.html?x=" + y);
             txt(y);
 
         }
         if (x == 1 || x == null) {
             var y = 0;
             $("#button").attr("value", y);
-            $("#aboutme").attr("href", "homepage.html?x=" + y);
+            $("#aboutme").attr("href", "index.html?x=" + y);
             $("#contact").attr("href", "contact.html?x=" + y);
+            $("#projects").attr("href", "projects.html?x=" + y);
             txt(y);
         }
 

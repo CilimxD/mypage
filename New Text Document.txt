@@ -1,3 +1,0 @@
-da probam da nekako namestim skriptu ako ode na male udredanje da bude padajuci meni ako ne obican
-
-documnet.onchange()pa onda tekst onaj
